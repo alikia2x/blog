@@ -59,18 +59,18 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "https:/alikia2x.com/img/avatar.png"
-        favicon16x16: "https:/alikia2x.com/img/avatar.png"
-        favicon32x32: "https:/alikia2x.com/img/avatar.png"
-        apple_touch_icon: "https:/alikia2x.com/img/avatar.png"
-        safari_pinned_tab: "https:/alikia2x.com/img/avatar.png"
+        favicon: "https://alikia2x.com/img/avatar.png"
+        favicon16x16: "https://alikia2x.com/img/avatar.png"
+        favicon32x32: "https://alikia2x.com/img/avatar.png"
+        apple_touch_icon: "https://alikia2x.com/img/avatar.png"
+        safari_pinned_tab: "https://alikia2x.com/img/avatar.png"
     countAllWords:
       enabled: true
       prefix: "共计"
       suffix: "字"
     label:
         text: "寒寒的博客"
-        icon: https:/alikia2x.com/img/avatar.png
+        icon: https://alikia2x.com/img/avatar.png
         iconHeight: 35
 
     # profile-mode
