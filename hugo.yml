@@ -52,7 +52,7 @@ params:
     showtoc: false
     tocopen: false
     editPost:
-      URL: "https://github.com/alikia2x/blog/content"
+      URL: "https://github.com/alikia2x/blog/tree/main/content"
       Text: "在GitHub上编辑" # edit text
       appendFilePath: true # to append file path to Edit link
 
