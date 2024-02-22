@@ -38,7 +38,7 @@ Date:   Sun Feb 11 17:47:37 2024 +0800
 ```
 
 在 [GitHub](https://github.com/alikia2x/WonderDays/commits/main/) 上的显示如下：
-![Image](/GitHubCommitTime.png)
+![Image](/img/GitHubCommitTime.png)
 
 在2月11日和13日的两次提交，在经过变基等操作后在GitHub上显示为两次均在13日提交。
 

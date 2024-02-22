@@ -89,12 +89,12 @@ java \-jar launcherLocation/HMCL.jar
 首先，我们可以在[macOSicons](https://macosicons.com)网站上，找一个喜欢的图标（顺便安利一下这个网站，上面有很多制作精美的macOS应用图标，全部都是免费下载），将它下载下来，选中文件并拷贝（`command+c`)  
 接下来右键你的`.app`文件，选中`Get Info`（“显示简介”），之后选中窗口左上角一个有着“空白App图标”的圆角矩形，它会附有一个蓝色的边框（如图），此时，按下`command+v`（粘贴），图标更换成功。
 
-![给HMCL添加图标](/HMCLAddIcon.png)
+![给HMCL添加图标](/img/HMCLAddIcon.png)
 
 最后，将制作好的`.app`拖到`Applications`文件夹（如图），你就可以在启动台看到它啦～
 
-![Applications文件夹下的HMCL](/HMCLinApplications.png)
+![Applications文件夹下的HMCL](/img/HMCLinApplications.png)
 
 最后，愉快的玩耍吧～
 
-![HMCL主页面](/HMCL-Main.png)
+![HMCL主页面](/img/HMCL-Main.png)

@@ -232,3 +232,4 @@ markup:
     goldmark:
         renderer:
             unsafe: true
+assetDir: assets

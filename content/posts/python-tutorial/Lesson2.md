@@ -29,7 +29,7 @@ Python3 有更新的特性，但其与 Python2 不兼容。
 > 如果你是 64 位系统，请点击 *python-3.11.0-amd64.exe* 以下载
 > 如果你是 32 位系统，请点击 *python-3.11.0.exe* 以下载
 
-![镜像网站下载界面](Screen4.png)
+![镜像网站下载界面](/img/Screen4.png)
 
 ### 官网下载
 
@@ -37,24 +37,24 @@ Python3 有更新的特性，但其与 Python2 不兼容。
 Python 的官方网站是 [python.org](https://python.org)
 进入网站后，你将看到如下界面
 点击 [Downloads](https://www.python.org/downloads/)（图中用白色方框圈起来的地方)
-![Python 官方网站](Screen5.png)  
+![Python 官方网站](/img/Screen5.png)  
 
 点击 *Downloads* 后，你会来到另一个界面，点击 [*Download Python 3.11.0*](https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe)。默认情况下，你会直接下载到适合你电脑系统的版本。
 
-![Python 官网下载界面](Screen6.png)
+![Python 官网下载界面](/img/Screen6.png)
 
 ### 安装
 
 下载完成后，双击安装包，开始安装。
 
 1. 勾选 *Add Python 3.11 to PATH* 后，点击 *Customize installation*
-![安装界面](Screen11.png)
+![安装界面](/img/Screen11.png)
 2. 接下来，点击 *Next*
-![第二步](Screen12.png)
+![第二步](/img/Screen12.png)
 3. 点击 *Browse*，选择合适的安装位置，然后点击 *Install*
-![第三步](Screen13.png)
+![第三步](/img/Screen13.png)
 4. 当出现 *Setup was successful* 时，表明安装成功
-![完成](Screen15.png)
+![完成](/img/Screen15.png)
 
 ### 确认安装
 

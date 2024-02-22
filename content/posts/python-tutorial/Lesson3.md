@@ -8,7 +8,7 @@ date: 2022-08-04 00:42:10
 ## 使用 IDLE 编写和运行程序
 
 打开 IDLE（你可以在开始菜单或其它系统的程序库中找到）
-![IDLE](https://ziwen243.cdn.bcebos.com/blog/Screen19.png)
+![IDLE](/img/Screen19.png)
 
 点击左上角的 *File*，再点击 *New File*，你会看到一个窗口。在新窗口中输入
 
@@ -18,7 +18,7 @@ date: 2022-08-04 00:42:10
 
 就像这样
 
-![输入代码](https://ziwen243.cdn.bcebos.com/blog/Screen20.png)
+![输入代码](/img/Screen20.png)
 
 再点击左上角的 *File*，点击 *Save*，此时系统会让你选择一个位置来保存你的代码，你可以任意取名并保存在喜欢的位置（我建议你为自己的代码单独创建一个文件夹，这样可以更好地管理）
 
@@ -26,7 +26,7 @@ date: 2022-08-04 00:42:10
 
 接下来，你将会在一个新窗口中看到一行蓝色的文本 ***Hello, world!***
 
-![执行结果](https://ziwen243.cdn.bcebos.com/blog/Screen22.png)
+![执行结果](/img/Screen22.png)
 
 至此，你成功了！
 

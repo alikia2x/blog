@@ -113,7 +113,7 @@ tags:
 
 PageRank是谷歌早期对搜索结果排序的一种重要算法，接下来，让我们用一个简单的模型来理解PageRank。
 
-![PageRank示意图](/PageRank.png)
+![PageRank示意图](/img/PageRank.png)
 
 我们来看看这幅图。其中，线条表示网站之间互相链接的关系，方块的大小表示网站的PageRank值。
 
