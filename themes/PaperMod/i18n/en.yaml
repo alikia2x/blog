@@ -34,3 +34,6 @@
 
 - id: totalVisit
   translation: "Total visits"
+
+- id: visit
+  translation: "Visits"
