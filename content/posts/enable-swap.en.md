@@ -5,6 +5,7 @@ draft: false
 tags:
     - Lookup
     - Linux
+categories: 开发
 ---
 
 ```shell

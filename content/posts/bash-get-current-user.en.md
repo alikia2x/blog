@@ -5,6 +5,7 @@ draft: false
 tags:
     - Lookup
     - Linux
+categories: Dev
 ---
 
 1. Use command `whoami`.
