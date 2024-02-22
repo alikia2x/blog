@@ -31,3 +31,9 @@
 
 - id: code_copied
   translation: "已复制！"
+
+- id: visit
+  translation: "阅读"
+
+- id: totalVisit
+  translation: "总阅读量"

@@ -1,0 +1,41 @@
+<script>
+    let path="{{ path.Clean .Page.RelPermalink }}";
+    path = encodeURIComponent("hugo-blog:" + path);
+    var endpoint = 'https://count.a2x.pub/record/@' + path;
+
+    var xhrPV = new XMLHttpRequest();
+    xhrPV.open('GET', endpoint, true);
+    xhrPV.responseType = 'json';
+    xhrPV.onerror = function () {
+        console.error('Network Error.');
+    };
+    xhrPV.onload = function () {
+        if (xhrPV.status === 200) {
+            if(!(document.getElementById("a2x_moe_counter") && document.getElementById("a2x_moe_counter_num"))) {
+                return;
+            }
+            var responseData = xhrPV.response;
+            var numData = responseData.num;
+            document.getElementById("a2x_moe_counter").style.display = "inline";
+            document.getElementById('a2x_moe_counter_num').innerHTML = numData;
+            setTimeout(() => {
+                document.getElementById("a2x_moe_counter").style.opacity = "0";
+                document.getElementById("a2x_moe_counter").style.opacity = "1";
+            }, 20);
+        } 
+        else {
+            console.error('Counter request failed:', xhrPV.status);
+        }
+    };
+    xhrPV.send();
+</script>
+
+
+{{- if (.Param "ShowVisit") -}}
+
+<span class="post-meta" id="a2x_moe_counter" style="display: none; opacity: 0; transition: .5s all;">
+    <span>&nbsp;·&nbsp;</span>{{ i18n "visit" | default "Visits:" }}: <span id="a2x_moe_counter_num"></span>
+</span>
+
+{{- end }}
+

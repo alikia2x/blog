@@ -104,6 +104,7 @@ params:
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: true
     ShowWordCount: true
+    ShowVisit: true
     ShowRssButtonInSectionTermList: true
     UseHugoToc: false
     disableSpecial1stPost: true
@@ -114,6 +115,7 @@ params:
     showtoc: true
     tocopen: false
     displayFullLangName: true
+    DateFormat: "2006-01-02"
     editPost:
         URL: 'https://github.com/alikia2x/blog/tree/main/content'
         Text: 在GitHub上编辑

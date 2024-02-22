@@ -8,7 +8,6 @@
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     }
-
 </script>
 {{- /* theme is dark */}}
 {{- else if (eq site.Params.defaultTheme "dark") }}
@@ -45,6 +44,35 @@
     }
 </script>
 {{- end }}
+
+<script async>
+    var xhrTotal= new XMLHttpRequest();
+    endpoint = 'https://count.a2x.pub/record/@hugo-blog';
+    xhrTotal.open('GET', endpoint, true);
+    xhrTotal.responseType = 'json';
+    xhrTotal.onerror = function () {
+        console.error('Network Error.');
+    };
+    xhrTotal.onload = function () {
+        if (xhrTotal.status === 200) {
+            if(!(document.getElementById("a2x_moe_counter_total") && document.getElementById("a2x_moe_counter_total_num"))) {
+                return;
+            }
+            var responseData = xhrTotal.response;
+            var numData = responseData.num;
+            document.getElementById("a2x_moe_counter_total").style.display = "inline";
+            document.getElementById('a2x_moe_counter_total_num').innerHTML = numData;
+            setTimeout(() => {
+                document.getElementById("a2x_moe_counter_total").style.opacity = "0";
+                document.getElementById("a2x_moe_counter_total").style.opacity = "1";
+            }, 20);
+        } 
+        else {
+            console.error('Counter request failed:', xhrTotal.status);
+        }
+    };
+    xhrTotal.send();
+</script>
 
 <header class="header">
     <nav class="nav">

@@ -5,10 +5,18 @@
     {{ range (where .Site.Pages "Kind" "page" )}}
     {{$scratch.Add "total" .WordCount}}
     {{ end }}
+    <p style="display: block;">
+        <span>
+          {{ .Site.Params.countAllWords.prefix }} {{$scratch.Get "total" }} {{ .Site.Params.countAllWords.suffix }}
+        </span>
+        {{ if .Param "ShowVisit" }}
+        <span id="a2x_moe_counter_total" style="display: none; opacity: 0; transition: .5s all;">
+            {{ i18n "totalVisit" | default "Total visits:" }}: <span id="a2x_moe_counter_total_num"></span>
+        </span>
+        {{ end }}
+    </p>
 
-    <span style="display: block;">
-      {{ .Site.Params.countAllWords.prefix }} {{$scratch.Get "total" }} {{ .Site.Params.countAllWords.suffix }}
-    </span>
+    
     {{ end }}
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
