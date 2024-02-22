@@ -69,7 +69,7 @@ avatar: https://alikia2x.com/img/avatar.png
 </div>
 
 <div style="gap:0.75rem;display: flex;">
-    <img style="display: inline; width: 4rem; border-radius: 10rem;" src="/img/pinkchampagne.jpeg" alt="Pink Champagne的头像">
+    <img style="display: inline; width: 4rem; border-radius: 10rem;" src="/img/pinkchampagne.jpg" alt="Pink Champagne的头像">
     <div style="display: flex;justify-content: center;flex-direction: column;">
         <a style="margin-bottom: 0.3rem;" href="https://pinkchampagne.moe/">Pink Champagne</a>
         <p style="margin-bottom: 0.2rem;">萌萌二次元大表哥，生料王</p>
