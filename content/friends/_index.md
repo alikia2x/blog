@@ -45,6 +45,14 @@ avatar: https://alikia2x.com/img/avatar.png
 </div>
 
 <div style="gap:0.75rem;display: flex;">
+    <img style="display: inline; width: 4rem; border-radius: 10rem;" src="/img/shion.jpg" alt="詩音的头像">
+    <div style="display: flex;justify-content: center;flex-direction: column;">
+        <a style="margin-bottom: 0.3rem;" href="https://blog.shion-nya.moe/">寒川詩音</a>
+        <p style="margin-bottom: 0.2rem;">只是一隻被貓娘養大的狐娘</p>
+    </div>
+</div>
+
+<div style="gap:0.75rem;display: flex;">
     <img style="display: inline; width: 4rem; border-radius: 10rem;" src="/img/xy.jpg" alt="xyenon的头像">
     <div style="display: flex;justify-content: center;flex-direction: column;">
         <a style="margin-bottom: 0.3rem;" href="https://blog.bakalu.site/">XYenon's Blog</a>
