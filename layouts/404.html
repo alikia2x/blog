@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <main id="main">
+    <div>
+        <h1 style="margin-bottom: 1rem;">404 Not Found</h1>
+        <p>Sorry, but the page you were trying to view does not exist.</p>
+        <p>You may have mistyped the address or the page may have moved.</p>
+        <h2 style="margin-top: 1rem; margin-bottom: 3rem; text-decoration: underline;">
+            <a href="{{ "" | relURL }}">Go Home</a>
+        </h2>
+        <hr>
+        <h1 style="margin-top: 2.5rem; margin-bottom: 1rem;">404 · 内容不见啦(>_<)</h1>
+        <p>误入了没有知识的荒原喵……</p>
+        <p>既然这样……按下下面的按钮，传送到主页吧～</p>
+        <h2 style="text-decoration: underline; margin-top: 1rem;">
+            <a href="{{ "" | relURL }}">传送ε=ε=(ノ≧∇≦)ノ</a>
+        </h2>
+    </div>
+  </main>
+{{ end }}

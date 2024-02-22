@@ -1,9 +1,9 @@
 ---
-title: Linux下开启交换分区
+title: Open swap on Linux
 date: 2024-01-14 01:02:21
 draft: false
 tags:
-    - 快查
+    - Lookup
     - Linux
 ---
 
@@ -16,4 +16,4 @@ sudo swapon /swap
 sudo chmod 0600 /swap
 ```
 
-这段命令会在根目录下创建/swap，其大小为4GB，可以根据需要修改为合适的大小。
+These commands will create a 4GB swapfile at /swap. You can modify the parameters as needed.
