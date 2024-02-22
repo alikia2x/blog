@@ -1,0 +1,7 @@
+{
+    "default": true,
+    "MD007": { "indent": 4 },
+    "MD033": false,
+    "no-hard-tabs": false,
+    "MD013": false
+}

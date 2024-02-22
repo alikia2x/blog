@@ -216,11 +216,19 @@ menu:
             url: /about/
             weight: 50
         -
+            identifier: friends
+            name: 朋友们
+            url: /friends/
+            weight: 60
+        -
             identifier: search
             name: 搜索
             url: /search/
-            weight: 60
+            weight: 70
 pygmentsUseClasses: true
 markup:
     highlight:
         noClasses: false
+    goldmark:
+        renderer:
+            unsafe: true

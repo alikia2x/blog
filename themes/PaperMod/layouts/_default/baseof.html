@@ -9,7 +9,15 @@
     {{- partial "head.html" . }}
     {{- partial "math.html" . }}
 </body>
-    </script>
+<script>
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+        if (event.matches) {
+            document.body.classList.add('dark');
+        } else {
+            document.body.classList.remove('dark');
+        }
+    })
+</script>
 </head>
 
 <body class="
