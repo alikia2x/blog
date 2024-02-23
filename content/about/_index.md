@@ -2,8 +2,6 @@
 title: 关于我
 ---
 
-[English Version](/en/about)
-
 贴贴喵(≧∇≦)
 
 学生开发者，你可以叫我寒寒，或者alikia。
