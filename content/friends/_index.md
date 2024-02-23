@@ -2,13 +2,19 @@
 title: "朋友们"
 ---
 
+## 和寒寒交朋友
+
 欢迎来和寒寒交朋友(≧∇≦) 互加友链可以给寒寒[发邮件](mailto:contact@alikia2x.com)或者在 [Missskey](https://social.a2x.pub/@alikia) 留言～
+
+**信息:**
 
 ```text
 name: 寒寒
 description: 梦想大大，技术菜菜
 avatar: https://alikia2x.com/img/avatar.png
 ```
+
+## 朋友们
 
 > 排序不分先后喵～都是好朋友(≧∇≦)
 
@@ -49,6 +55,14 @@ avatar: https://alikia2x.com/img/avatar.png
     <div style="display: flex;justify-content: center;flex-direction: column;">
         <a style="margin-bottom: 0.3rem;" href="https://blog.shion-nya.moe/">寒川詩音</a>
         <p style="margin-bottom: 0.2rem;">只是一隻被貓娘養大的狐娘</p>
+    </div>
+</div>
+
+<div style="gap:0.75rem;display: flex;">
+    <img style="display: inline; width: 4rem; border-radius: 10rem;" src="/img/candinya.png" alt="糖喵的头像">
+    <div style="display: flex;justify-content: center;flex-direction: column;">
+        <a style="margin-bottom: 0.3rem;" href="https://candinya.com/">Candy Nya</a>
+        <p style="margin-bottom: 0.2rem;">Never drown the flame of hope</p>
     </div>
 </div>
 
