@@ -2,6 +2,7 @@
 title: Linux 将某用户添加到组
 date: 2024-02-22T01:46:49+08:00
 draft: false
+summary: usermod -a -G group user
 tags:
     - 快查
     - Linux

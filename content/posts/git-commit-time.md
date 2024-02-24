@@ -2,13 +2,14 @@
 title: Git 提交时间修改完全指南
 date: 2024-02-14T00:37:13+08:00
 draft: false
+summary: 如果你的提交日志的日期与 GitHub 上不同，那么，<br> git filter-branch --env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"'<br>之后再强制推送
 tags:
     - 快查
 ---
 
 ## 问题简述 & 解决方案
 
-如果你发现你的 `git log` 中的提交日期与GitHub上显示的不同，那么，
+如果你发现你的 `git log` 中的提交日期与 GitHub 上显示的不同，那么，
 
 ```bash
 git filter-branch --env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"'
@@ -40,7 +41,7 @@ Date:   Sun Feb 11 17:47:37 2024 +0800
 在 [GitHub](https://github.com/alikia2x/WonderDays/commits/main/) 上的显示如下：
 ![Image](/img/GitHubCommitTime.png)
 
-在2月11日和13日的两次提交，在经过变基等操作后在GitHub上显示为两次均在13日提交。
+在 2 月 11 日和 13 日的两次提交，在经过变基等操作后在 GitHub 上显示为两次均在 13 日提交。
 
 ## 参考
 

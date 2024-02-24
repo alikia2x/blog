@@ -2,6 +2,7 @@
 title: VSCode 中为 Markdown 的中英文间添加空格
 date: 2024-02-22T01:46:49+08:00
 draft: false
+summary: <a href='https://marketplace.visualstudio.com/items?itemName=harttle.md-padding-vscode'>Markdown Padding 插件</a>
 tags:
     - 工具
     - Markdown

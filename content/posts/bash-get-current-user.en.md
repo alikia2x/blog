@@ -2,6 +2,7 @@
 title: Bash Get Current User
 date: 2024-02-22 02:00:02
 draft: false
+summary: whoami<br>OR<br>echo $USER
 tags:
     - Lookup
     - Linux

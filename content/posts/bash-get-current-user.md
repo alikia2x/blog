@@ -5,6 +5,7 @@ draft: false
 tags:
     - 快查
     - Linux
+summary: whoami<br>或者<br>echo $USER
 ---
 
 1. 使用 `whoami` 命令.

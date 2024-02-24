@@ -1,7 +1,8 @@
 ---
-title: Linux下开启交换分区
+title: Linux 下开启交换分区
 date: 2024-01-14 01:02:21
 draft: false
+summary: 在 Linux 上开启交换分区 (swap) 的简明教程。
 tags:
     - 快查
     - Linux

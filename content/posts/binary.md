@@ -3,6 +3,7 @@ title: 什么是二进制
 date: 2022-07-19T00:18:30+08:00
 draft: false
 math: true
+summary: 一文带你完全了解二进制！
 tags:
   - 技术讲解
 ---

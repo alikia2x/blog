@@ -2,6 +2,7 @@
 title: Hugo 解决生成时权限问题
 date: 2024-02-22T01:57:02+08:00
 draft: false
+summary: hugo --noChmod --noTimes
 tags:
     - 快查
     - Linux

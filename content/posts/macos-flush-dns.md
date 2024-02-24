@@ -1,10 +1,11 @@
 ---
-title: Bash 获取当前用户名
+title: macOS 刷新 DNS 缓存
 date: 2024-02-23 18:45:38
 draft: false
 tags:
     - 快查
     - Mac
+summary: sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 ---
 
 | 系统版本 | 使用的命令 |

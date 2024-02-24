@@ -2,6 +2,7 @@
 title: Open swap on Linux
 date: 2024-01-14 01:02:21
 draft: false
+summary: Quick tutorial to enable swap on Linux
 tags:
     - Lookup
     - Linux

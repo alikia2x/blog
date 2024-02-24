@@ -1,7 +1,8 @@
 ---
-title: 如何在ARM Mac上使用HMCL玩Minecraft
+title: 如何在 ARM mac 上使用 HMCL 玩 Minecraft
 date: 2024-01-14T01:53:08+08:00
 draft: false
+summary: 来一起愉快地玩 MC 吧~(≧▽≦)/~
 tags:
   - Mac
 ---

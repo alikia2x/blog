@@ -57,14 +57,13 @@
 }
 
 .entry-content {
-    margin: 8px 0;
+    position: relative;
+    z-index: 20;
+    padding: 16px 0;
     color: var(--secondary);
     font-size: 14px;
     line-height: 1.6;
     overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
 }
 
 .entry-footer {
@@ -74,6 +73,7 @@
 
 .entry-link {
     position: absolute;
+    z-index: 10;
     left: 0;
     right: 0;
     top: 0;
