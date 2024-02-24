@@ -26,3 +26,5 @@ summary: sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 | Mac OS X 10.6 (Snow Leopard) | `sudo dscacheutil -flushcache` |
 | Mac OS X 10.5 (Leopard) | `sudo lookupd -flushcache` |
 | Mac OS X 10.4 (Tiger) | `lookupd -flushcache` |
+
+摘自原文：[freeCodeCamp](https://www.freecodecamp.org/news/how-to-flush-dns-on-mac-macos-clear-dns-cache/)
