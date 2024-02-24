@@ -49,3 +49,7 @@ git : git alikia
 ```
 
 表明用户 `git` 被分配到 `git` 和 `alikia` 两个组。
+
+## 参考文章
+
+\[1\] [How-To Geek](https://www.howtogeek.com/50787/add-a-user-to-a-group-or-second-group-on-linux/)
