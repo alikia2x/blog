@@ -6,7 +6,7 @@ summary: <a href='https://marketplace.visualstudio.com/items?itemName=harttle.md
 tags:
     - 工具
     - Markdown
-    - 写作
+    - VSCode
 ---
 
 有一个 VSCode 的小插件，叫 [Markdown Padding](https://marketplace.visualstudio.com/items?itemName=harttle.md-padding-vscode)，
