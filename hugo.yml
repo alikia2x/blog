@@ -74,7 +74,7 @@ languages:
                 suffix: words
             label:
                 text: Alikia's Blog
-                icon: 'https://alikia2x.com/img/avatar.png'
+                icon: 'https://blog.alikia2x.com/img/avatar.png'
                 iconHeight: 30
 
 outputs:
@@ -121,18 +121,18 @@ params:
         Text: 在GitHub上编辑
         appendFilePath: true
     assets:
-        favicon: 'https://alikia2x.com/img/avatar.png'
-        favicon16x16: 'https://alikia2x.com/img/avatar.png'
-        favicon32x32: 'https://alikia2x.com/img/avatar.png'
-        apple_touch_icon: 'https://alikia2x.com/img/avatar.png'
-        safari_pinned_tab: 'https://alikia2x.com/img/avatar.png'
+        favicon: 'https://blog.alikia2x.com/img/avatar.png'
+        favicon16x16: 'https://blog.alikia2x.com/img/avatar.png'
+        favicon32x32: 'https://blog.alikia2x.com/img/avatar.png'
+        apple_touch_icon: 'https://blog.alikia2x.com/img/avatar.png'
+        safari_pinned_tab: 'https://blog.alikia2x.com/img/avatar.png'
     countAllWords:
         enabled: true
         prefix: 共计
         suffix: 字
     label:
         text: 寒寒的博客
-        icon: 'https://alikia2x.com/img/avatar.png'
+        icon: 'https://blog.alikia2x.com/img/avatar.png'
         iconHeight: 35
     profileMode:
         enabled: false
