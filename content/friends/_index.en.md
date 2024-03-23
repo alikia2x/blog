@@ -4,7 +4,7 @@ title: "Friends"
 
 ## Makes friends with me
 
-Welcome to make friends with me~ If you wanna exchange links, you can send it to my email[email](mailto:contact@alikia2x.com) or leave a message at [Missskey](https://social.a2x.pub/@alikia_en)~.
+Welcome to make friends with me~ If you wanna exchange links, you can send it to my [e-mail](mailto:contact@alikia2x.com) or leave a message at [Missskey](https://social.a2x.pub/@alikia_en)~.
 
 ## Friends
 
