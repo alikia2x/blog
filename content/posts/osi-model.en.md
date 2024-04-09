@@ -1,6 +1,6 @@
 ---
 title: The OSI Model
-date: 2024-04-09 21:33:01
+date: 2024-04-09T21:33:01+08:00
 draft: false
 summary: My learning notes about the OSI model
 tags:
