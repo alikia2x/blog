@@ -99,7 +99,7 @@ avatar: https://alikia2x.com/img/avatar.png
 </div>
 
 <div style="gap:0.75rem;display: flex;">
-    <img style="display: inline; width: 4rem; border-radius: 10rem;" src="/img/nowrm.webp" alt="Nworm的头像">
+    <img style="display: inline; width: 4rem; border-radius: 10rem;" src="/img/nworm.webp" alt="Nworm的头像">
     <div style="display: flex;justify-content: center;flex-direction: column;">
         <a style="margin-bottom: 0.3rem;" href="https://nworm.icu/">Nworm</a>
         <p style="margin-bottom: 0.2rem;">一条咸鱼</p>
