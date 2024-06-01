@@ -2,7 +2,11 @@
 title: Props 在 React 函数组件的传递
 date: 2024-02-01T21:49:18+08:00
 draft: false
-props: 最近在使用 React 进行开发时，发现了一个关于 props 容易被忽视的细节
+summary: 最近在使用 React 进行开发时，发现了一个关于 props 容易被忽视的细节
+cover:
+    image: '/img/react.jpg'
+    relative: true
+    hidden: false
 ---
 
 最近在使用 React 进行开发时，发现了一个容易被忽视的细节，特此分享。

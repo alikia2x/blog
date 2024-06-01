@@ -2,7 +2,11 @@
 title: Passing Props in React Function Components
 date: 2024-06-02T02:58:02+08:00
 draft: false
-props: Recently discovered a subtle detail about passing props in React...
+summary: Recently discovered a subtle detail about passing props in React
+cover:
+    image: '/img/react.jpg'
+    relative: true
+    hidden: false
 ---
 
 Recently, while developing with React, I discovered a subtle detail that's easy to overlook, now sharing with you.
