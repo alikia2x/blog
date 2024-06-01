@@ -14,24 +14,25 @@ props: 最近在使用 React 进行开发时，发现了一个关于 props 容�
 让我们来看一个函数组件：
 
 ```jsx
-const OneSearch: (query, engine) => {
+const Search = (query, engine) => {
     ...
 }
-
 export default OneSearch;
 ```
 
 在引用这个组件时，可能会这样写：
 
 ```html
-<OneSearch query={oneSearchQuery} engine={engine}></OneSearch>
+<Search query={query} engine={engine} />
 ```
 
 表面上看起来一切正常，但如果仔细观察函数组件的定义，会发现一个小小的细节，就在传参的地方：`(query, engine)`
 
 实际上，我们希望应该是这样：`({ query, engine })`
 
-为什么呢？因为在 React 中，组件的参数是作为一个 JavaScript 对象传递的。在定义函数组件时，我们可以将参数写作 `(props)` 或者其他任何名字，比如 `(cop)`。而在引用组件时，JSX 会将传递的参数名和值打包成一个 JavaScript 对象，作为实参传递给组件。`props` 只是一个约定俗称的名字，你可以通过这个名字来访问传递过来的参数。
+## 原因
+
+为什么呢？因为在 React 中，组件的参数是作为一个 JavaScript 对象传递的。在定义函数组件时，我们可以将参数写作 `(props)` 或者其他任何名字，比如 `(foo)`。而在引用组件时，JSX 会将传递的参数名和值打包成一个 JavaScript 对象，作为实参传递给组件。`props` 只是一个约定俗称的名字，你可以通过这个名字来访问传递过来的参数。
 
 另一种写法是 `({ query, engine })`，此时形参变成了一个对象，而 JavaScript 语法允许你通过这种形式直接访问对象中的属性。
 
