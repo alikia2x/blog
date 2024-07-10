@@ -53,10 +53,15 @@ languages:
                     url: about/
                     weight: 50
                 -
+                    identifier: friends
+                    name: Friends
+                    url: friends/
+                    weight: 60
+                -
                     identifier: search
                     name: Search
                     url: search/
-                    weight: 60
+                    weight: 70
         params:
             author: alikia2x
             title: Alikia's Blog
