@@ -24,11 +24,13 @@ tags:
 
 using namespace std;
 
-// MAXN为最大节点数量
+// MAXN 为最大节点数量
 const int MAXN = 700000;
-// LOG为log2(MAXN)的近似值，在算法中实际上扮演了倍增时所需要的循环数。
+// LOG 为 `log2(MAXN)` 的近似值，
+// 在算法中作为倍增时所需要的循环次数。
 const int LOG = 20;
 
+// 树节点由链表实现
 struct TreeNode {
     int val;
     vector< TreeNode * > children;
@@ -48,8 +50,8 @@ void dfs(int node, int par) {
     for (int i = 1; i < LOG; ++i) {
         // 确保当前节点的第 2^i 个祖先存在
         if (parent[node][i - 1] != -1) {
-            // 节点 node 的第 2^i 个祖先
-            // 是其第 2^(i-1) 个祖先的第 2^(i-1) 个祖先。
+            // 节点 node 的第 2^i 个祖先是：
+            // 其第 2^(i-1) 个祖先的第 2^(i-1) 个祖先。
             parent[node][i] = parent[parent[node][i - 1]][i - 1];
         } else {
             // 如果当前节点的第 2^i 个祖先不存在，
@@ -68,7 +70,7 @@ void dfs(int node, int par) {
 
 // 利用倍增法查找两个节点的最近公共祖先
 int lca(int u, int v) {
-    // 确保u是更深的节点
+    // 确保 u 是更深的节点
     if (depth[u] < depth[v]) {
         swap(u, v);
     }
@@ -76,12 +78,15 @@ int lca(int u, int v) {
     int diff = depth[u] - depth[v];
     // 将两个节点拉平到同一深度
     for (int i = 0; i < LOG; ++i) {
+        // 使用二进制提升法将 u 提升到和 v 同一深度：
+        // diff >> i 检查 diff 的第 i 位是否为1
         if ((diff >> i) & 1) {
+            // 如果为1，将 u 提升到其第 2^i 个祖先
             u = parent[u][i];
         }
     }
     // 如果拉到同深度后，节点已经相等，
-    // 则说明该深度对应的节点就已经是LCA
+    // 则说明该深度对应的节点就已经是 LCA
     if (u == v) {
         return u;
     }
@@ -101,19 +106,27 @@ int lca(int u, int v) {
 }
 
 int main() {
+    // 数据输入及建树
     cin >> N >> M >> S;
 
     for (int i = 0; i < N - 1; ++i) {
         int x, y;
         cin >> x >> y;
+        // 由于我们使用邻接表来存储树结构
+        // 因此是无向图，故需要同时添加
+        // x->y 与 y->x 的连接
         tree[x].push_back(y);
         tree[y].push_back(x);
     }
 
+    // 初始化 parent 数组
     fill(parent[0], parent[0] + MAXN * LOG, -1);
+    // S 在题目中为根结点，其深度为0。
     depth[S] = 0;
+    // 调用 DFS 预处理整个树，从根节点开始。
     dfs(S, -1);
 
+    // 查询及返回
     for (int i = 0; i < M; ++i) {
         int a, b;
         cin >> a >> b;
