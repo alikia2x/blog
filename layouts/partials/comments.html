@@ -1,3 +1,4 @@
+{{ if eq site.LanguageCode "zh" }}
 <script
     src="https://giscus.app/client.js"
     data-repo="alikia2x/blog"
@@ -9,7 +10,26 @@
     data-reactions-enabled="1"
     data-emit-metadata="1"
     data-input-position="top"
+    data-lang="zh-CN"
     data-theme="preferred_color_scheme"
     crossorigin="anonymous"
     async
 ></script>
+{{ else }}
+<script
+    src="https://giscus.app/client.js"
+    data-repo="alikia2x/blog"
+    data-repo-id="R_kgDOLWMoxw"
+    data-category="comments"
+    data-category-id="DIC_kwDOLWMox84CgzP8"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="1"
+    data-input-position="top"
+    data-lang="en"
+    data-theme="preferred_color_scheme"
+    crossorigin="anonymous"
+    async
+></script>
+{{ end }}
