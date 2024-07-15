@@ -4,6 +4,7 @@ date: 2024-07-15T22:24:16+08:00
 draft: false
 categories: Algorithms
 summary: Here's a implemention of finding LCA in C++ with detailed comments to help you understand this algorithm.
+math: true
 tags:
     - OI
     - Algorithms
