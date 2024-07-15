@@ -48,13 +48,13 @@ void dfs(int node, int par) {
     parent[node][0] = par;
     // 循环计算每个节点的 2^i 个祖先
     for (int i = 1; i < LOG; ++i) {
-        // 确保当前节点的第 2^i 个祖先存在
+        // 确保当前节点的第 2^(i-1) 个祖先存在
         if (parent[node][i - 1] != -1) {
             // 节点 node 的第 2^i 个祖先是：
             // 其第 2^(i-1) 个祖先的第 2^(i-1) 个祖先。
             parent[node][i] = parent[parent[node][i - 1]][i - 1];
         } else {
-            // 如果当前节点的第 2^i 个祖先不存在，
+            // 如果当前节点的第 2^(i-1) 个祖先不存在，
             // 那么 2^i 个祖先也不存在，设置为 -1。
             parent[node][i] = -1;
         }
