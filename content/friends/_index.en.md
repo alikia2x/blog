@@ -6,6 +6,14 @@ title: "Friends"
 
 Welcome to make friends with me~ If you wanna exchange links, you can send it to my [e-mail](mailto:contact@alikia2x.com) or leave a message at [Missskey](https://social.a2x.pub/@alikia_en)~.
 
+**info:**
+
+```text
+name: alikia2x
+description: A student developer.
+avatar: https://alikia2x.com/img/avatar.png
+```
+
 ## Friends
 
 > The following list is in no particular order.
@@ -30,7 +38,7 @@ Welcome to make friends with me~ If you wanna exchange links, you can send it to
 <div class="fr-box">
     <img class="fr-img" src="/img/lakr.jpg" alt="砍砍's avatar">
     <div class="fr">
-        <a style="margin-bottom: 0.3rem;" href="https://nanakumo.github.io/">砍砍</a>
+        <a style="margin-bottom: 0.3rem;" href="https://www.qaq.wiki/">砍砍</a>
         <p style="margin-bottom: 0.2rem;">对不起，是我太菜了。</p>
     </div>
 </div>
@@ -78,7 +86,7 @@ Welcome to make friends with me~ If you wanna exchange links, you can send it to
 <div class="fr-box">
     <img class="fr-img" src="/img/xy.jpg" alt="xyenon's avatar">
     <div class="fr">
-        <a style="margin-bottom: 0.3rem;" href="https://blog.bakalu.site/">XYenon's Blog</a>
+        <a style="margin-bottom: 0.3rem;" href="https://blog.xyenon.bid/">XYenon's Blog</a>
         <p style="margin-bottom: 0.2rem;">PER ASPERA AD ASTRA</p>
     </div>
 </div>
@@ -120,5 +128,13 @@ Welcome to make friends with me~ If you wanna exchange links, you can send it to
     <div class="fr">
         <a style="margin-bottom: 0.3rem;" href=" https://blog.beixibaobao.com/">北熙宝宝</a>
         <p style="margin-bottom: 0.2rem;">如果恋爱有颜色，那一定是纯白色！</p>
+    </div>
+</div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/yumechi.jpg" alt="yumechi's avatar">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href=" https://yumechi.jp/">Yumechi</a>
+        <p style="margin-bottom: 0.2rem;">いい夢を</p>
     </div>
 </div>
