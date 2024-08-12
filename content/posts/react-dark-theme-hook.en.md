@@ -1,5 +1,5 @@
 ---
-title: How to Elegantly Detect if the User's System Has Dark Mode Enabled
+title: How to Elegantly Detect if the User's System Has Dark Mode Enabled in React
 date: 2024-08-13T00:35:18+08:00
 draft: false
 summary: In modern web development, dark mode not only reduces eye strain but also provides a more comfortable reading experience at night. So, how can we elegantly detect if the user has enabled dark mode in a React application?
