@@ -221,15 +221,20 @@ menu:
             url: /about/
             weight: 50
         -
+            identifier: works
+            name: 作品
+            url: /works/
+            weight: 60
+        -
             identifier: friends
             name: 朋友们
             url: /friends/
-            weight: 60
+            weight: 70
         -
             identifier: search
             name: 搜索
             url: /search/
-            weight: 70
+            weight: 80
 pygmentsUseClasses: true
 markup:
     highlight:
