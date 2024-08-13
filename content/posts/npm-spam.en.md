@@ -47,9 +47,9 @@ Spam packages often create dependencies among themselves within the same spam or
 
 ### Copying README Files from Popular Packages
 
-Some spam packages copy README files from well-known packages, which can mislead developers. For example, [@diotoborg/ratione-error-odio](https://www.npmjs.com/package/@diotoborg/ratione-error-odio) has a README identical to [pnpm](https://www.npmjs.com/package/pnpm), potentially causing confusion among developers and leading to issues with package imports.
+Some spam packages copy README files from well-known packages. For example, [@diotoborg/ratione-error-odio](https://www.npmjs.com/package/@diotoborg/ratione-error-odio) has a README as same as [pnpm](https://www.npmjs.com/package/pnpm).
 
-## Specific Example
+## Examples
 
 A notable case is the package [@diotoborg/dolores-praesentium-assumenda](https://www.npmjs.com/package/@diotoborg/dolores-praesentium-assumenda), which features a unique README compared to [@patrtorg/illum-sapiente-quos](https://www.npmjs.com/package/@patrtorg/illum-sapiente-quos). The README for [@patrtorg/illum-sapiente-quos](https://www.npmjs.com/package/@patrtorg/illum-sapiente-quos) is copied from [fast-xml-parser](https://www.npmjs.com/package/fast-xml-parser), further illustrating the misleading practices used by spam package publishers.
 
