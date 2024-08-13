@@ -7,6 +7,17 @@ summary: This report details widespread malicious activities and spam package ab
 
 **IMPORTANT NOTE: I am still investigating this incident. Please stay tuned for updates.**
 
+## Updates
+
+Real-time update to this incident.
+
+[(Maybe) the root cause](https://www.web3isgoinggreat.com/single/teaxyz-causes-open-source-software-spam-problems-again)
+[Another report](https://blog.phylum.io/digital-detritus-unintended-consequences-of-open-source-sustainability-platforms/)
+
+> However, this does not explain many of the SEO behaviors mentioned above. In addition, many of the packages we found did not have any activity related to tea.xyz, such as [@diotoborg/esse-accusantium-ratione](https://www.npmjs.com/package/@diotoborg/esse-accusantium-ratione)
+
+---
+
 This report provides a comprehensive analysis of recent malicious activities and spam package abuse within the npm community. It focuses on the patterns and impacts of these actions on the npm ecosystem.
 
 ## Malicious Activities
@@ -105,12 +116,3 @@ zitterorg
 ## Conclusion
 
 The malicious activities outlined in this report present a significant threat to the npm community. Immediate and effective measures are necessary to preserve the integrity and security of the npm registry.
-
-## Temp Area
-
-Real-time update to this incident.
-
-[(Maybe) the root cause](https://www.web3isgoinggreat.com/single/teaxyz-causes-open-source-software-spam-problems-again)
-[Another report](https://blog.phylum.io/digital-detritus-unintended-consequences-of-open-source-sustainability-platforms/)
-
-> However, this does not explain many of the SEO behaviors mentioned above. In addition, many of the packages we found did not have any activity related to tea.xyz, such as [@diotoborg/esse-accusantium-ratione](https://www.npmjs.com/package/@diotoborg/esse-accusantium-ratione)
