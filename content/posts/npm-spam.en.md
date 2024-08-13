@@ -105,3 +105,9 @@ zitterorg
 ## Conclusion
 
 The malicious activities outlined in this report present a significant threat to the npm community. Immediate and effective measures are necessary to preserve the integrity and security of the npm registry.
+
+## Temp Area
+
+Real-time update to this incident.
+
+[(Maybe) the root cause](https://www.web3isgoinggreat.com/single/teaxyz-causes-open-source-software-spam-problems-again)
