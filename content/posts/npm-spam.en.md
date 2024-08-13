@@ -5,6 +5,8 @@ draft: false
 summary: This report details widespread malicious activities and spam package abuse within the npm community.
 ---
 
+**IMPORTANT NOTE: I am still investigating this incident. Please stay tuned for updates.**
+
 This report provides a comprehensive analysis of recent malicious activities and spam package abuse within the npm community. It focuses on the patterns and impacts of these actions on the npm ecosystem.
 
 ## Malicious Activities
