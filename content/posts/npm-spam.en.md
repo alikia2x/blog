@@ -111,5 +111,6 @@ The malicious activities outlined in this report present a significant threat to
 Real-time update to this incident.
 
 [(Maybe) the root cause](https://www.web3isgoinggreat.com/single/teaxyz-causes-open-source-software-spam-problems-again)
+[Another report](https://blog.phylum.io/digital-detritus-unintended-consequences-of-open-source-sustainability-platforms/)
 
 > However, this does not explain many of the SEO behaviors mentioned above. In addition, many of the packages we found did not have any activity related to tea.xyz, such as [@diotoborg/esse-accusantium-ratione](https://www.npmjs.com/package/@diotoborg/esse-accusantium-ratione)
