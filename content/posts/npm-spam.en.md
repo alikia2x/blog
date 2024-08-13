@@ -55,13 +55,9 @@ A notable case is the package [@diotoborg/dolores-praesentium-assumenda](https:/
 
 ## Impact on npm Community
 
-### Integrity of Search Results
+### Quality of Search Results
 
-The manipulation of search rankings by spam packages disrupts the reliability of search results. This can lead developers to download and use packages that do not meet their needs, affecting the overall quality and security of their projects.
-
-### Misleading Developers
-
-Spam packages often mislead developers by using legitimate README files from well-known packages. This deception can result in failed imports and other technical issues, impacting developers' workflows and productivity.
+The behavior of spam packages manipulating search rankings seriously affects the reliability of search results. This makes it impossible for developers to effectively find the packages they need.
 
 ### Potential Infrastructure Strain
 
