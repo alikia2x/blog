@@ -126,7 +126,7 @@ avatar: https://alikia2x.com/img/avatar.png
 <div class="fr-box">
     <img class="fr-img" src="/img/beixi.jpg" alt="北熙宝宝的头像">
     <div class="fr">
-        <a style="margin-bottom: 0.3rem;" href=" https://blog.beixibaobao.com/">北熙宝宝</a>
+        <a style="margin-bottom: 0.3rem;" href="https://blog.beixibaobao.com/">北熙宝宝</a>
         <p style="margin-bottom: 0.2rem;">如果恋爱有颜色，那一定是纯白色！</p>
     </div>
 </div>
@@ -134,7 +134,15 @@ avatar: https://alikia2x.com/img/avatar.png
 <div class="fr-box">
     <img class="fr-img" src="/img/yumechi.jpg" alt="yumechi的头像">
     <div class="fr">
-        <a style="margin-bottom: 0.3rem;" href=" https://yumechi.jp/">Yumechi</a>
+        <a style="margin-bottom: 0.3rem;" href="https://yumechi.jp/">Yumechi</a>
         <p style="margin-bottom: 0.2rem;">いい夢を</p>
+    </div>
+</div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/laoxiong.png" alt="老兄的头像">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://www.moec.top/">老兄</a>
+        <p style="margin-bottom: 0.2rem;">老兄de博客</p>
     </div>
 </div>
