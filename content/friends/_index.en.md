@@ -2,7 +2,7 @@
 title: "Friends"
 ---
 
-## Makes friends with me
+## Let's Connect!
 
 If you wanna connect with me, you can [send an email](mailto:alikia2x@outlook.com), through [X](https://x.com/alikia2x) or in [Fediverse](https://social.a2x.pub/@alikia_en).
 
@@ -136,5 +136,21 @@ avatar: https://alikia2x.com/img/avatar.png
     <div class="fr">
         <a style="margin-bottom: 0.3rem;" href=" https://yumechi.jp/">Yumechi</a>
         <p style="margin-bottom: 0.2rem;">いい夢を</p>
+    </div>
+</div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/laoxiong.png" alt="老兄's avatar">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://www.moec.top/">老兄</a>
+        <p style="margin-bottom: 0.2rem;">老兄de博客</p>
+    </div>
+</div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/Skyone.png" alt="Skyone's avatar'">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://www.skyone.host/">Skyone Blog</a>
+        <p style="margin-bottom: 0.2rem;">Skyone的个人博客</p>
     </div>
 </div>

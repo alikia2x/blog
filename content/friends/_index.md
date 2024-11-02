@@ -146,3 +146,11 @@ avatar: https://alikia2x.com/img/avatar.png
         <p style="margin-bottom: 0.2rem;">老兄de博客</p>
     </div>
 </div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/Skyone.png" alt="Skyone的头像">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://www.skyone.host/">Skyone Blog</a>
+        <p style="margin-bottom: 0.2rem;">Skyone的个人博客</p>
+    </div>
+</div>
