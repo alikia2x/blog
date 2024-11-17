@@ -154,3 +154,11 @@ avatar: https://alikia2x.com/img/avatar.png
         <p style="margin-bottom: 0.2rem;">Skyone的个人博客</p>
     </div>
 </div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/march7th.jpg" alt="bingxin的头像">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://blog.byteloid.one/">Bingxin Home</a>
+        <p style="margin-bottom: 0.2rem;">好久不见</p>
+    </div>
+</div>
