@@ -2,7 +2,11 @@
 title: 【翻译】Google 翻译的最新进展
 date: 2024-11-18T00:35:18+08:00
 draft: false
-summary: 
+summary: Google Translate通过混合模型架构、网络爬取优化、数据噪声处理、反向翻译和M4建模等技术，显著提升了包括低资源语言在内的100多种语言的翻译质量
+tags:
+- 翻译
+- 机器翻译
+- NMT
 ---
 
 [原始文章](https://research.google/blog/recent-advances-in-google-translate/) - 由 Google Research 软件工程师 Isaac Caswell 和 Bowen Liang 发布于2020年6月8日。
