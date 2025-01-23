@@ -6,7 +6,6 @@ summary: whoami<br>OR<br>echo $USER
 tags:
     - Lookup
     - Linux
-categories: Dev
 ---
 
 1. Use command `whoami`.

@@ -6,7 +6,6 @@ summary: Quick tutorial to enable swap on Linux
 tags:
     - Lookup
     - Linux
-categories: 开发
 ---
 
 ```shell
