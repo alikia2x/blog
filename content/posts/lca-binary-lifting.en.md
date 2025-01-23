@@ -20,15 +20,15 @@ As stated, given a rooted multi-way tree, find the lowest common ancestor of two
 
 ### Input Format
 
-The first line contains three positive integers $!N, M, S!$, representing the number of nodes in the tree, the number of queries, and the root node's index, respectively.
+The first line contains three positive integers $N, M, S$, representing the number of nodes in the tree, the number of queries, and the root node's index, respectively.
 
-The next $!N-1!$ lines each contain two positive integers $!x!$ and $!y!$, indicating that there is a direct connection between nodes $!x!$ and $!y!$ (it is guaranteed that the data forms a tree).
+The next $N-1$ lines each contain two positive integers $x$ and $y$, indicating that there is a direct connection between nodes $x$ and $y$ (it is guaranteed that the data forms a tree).
 
-The next $!M!$ lines each contain two positive integers $!a!$ and $!b!$, representing a query for the lowest common ancestor of nodes $!a!$ and $!b!$.
+The next $M$ lines each contain two positive integers $a$ and $b$, representing a query for the lowest common ancestor of nodes $a$ and $b$.
 
 ### Output Format
 
-The output contains $!M!$ lines, each containing a positive integer, which is the result for each query in order.
+The output contains $M$ lines, each containing a positive integer, which is the result for each query in order.
 
 ### Example #1
 
@@ -59,11 +59,11 @@ The output contains $!M!$ lines, each containing a positive integer, which is th
 
 ### Data Range
 
-For $!30 \\% !$ of the data, $!N \leq 10!$, $!M \leq 10!$.
+For $30 \\% $ of the data, $N \leq 10$, $M \leq 10$.
 
-For $!70 \%!$ of the data, $!N \leq 10000!$, $!M \leq 10000!$.
+For $70 \%$ of the data, $N \leq 10000$, $M \leq 10000$.
 
-For $!100 \%!$ of the data, $!1 \leq N, M \leq 500000!$, $!1 \leq x, y, a, b \leq N!$, **not guaranteed** $!a \neq b!$.
+For $100 \%$ of the data, $1 \leq N, M \leq 500000$, $1 \leq x, y, a, b \leq N$, **not guaranteed** $a \neq b$.
 
 ## Code Implementation
 
