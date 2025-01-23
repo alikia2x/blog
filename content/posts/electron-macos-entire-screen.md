@@ -3,7 +3,7 @@ title: macOS 上如何让程序完全占据整个屏幕（覆盖Dock和菜单栏
 date: 2024-11-24T23:23:00+0800
 draft: false
 tags:
-    - Mac
+    - macOS
     - 前端
     - Electron
 categories: 开发
