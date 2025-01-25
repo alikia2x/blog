@@ -4,7 +4,7 @@ title: "朋友们"
 
 ## 和寒寒交朋友
 
-欢迎来和寒寒交朋友(≧∇≦) 互加友链可以给寒寒[发邮件](mailto:contact@alikia2x.com)或者在 [Missskey](https://social.a2x.pub/@alikia) 留言～
+欢迎来和寒寒交朋友(≧∇≦) 互加友链可以直接在本页面下方留言，给寒寒[发邮件](mailto:contact@alikia2x.com)或者给我在[Fediverse](https://social.a2x.pub/@alikia)上私信～
 
 **信息:**
 
@@ -162,3 +162,12 @@ avatar: https://alikia2x.com/img/avatar.png
         <p style="margin-bottom: 0.2rem;">好久不见</p>
     </div>
 </div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/misscraft.jpg" alt="misscraft的头像">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://akaluchi.com/">misscraft</a>
+        <p style="margin-bottom: 0.2rem;">狂风拂面衣襟乱，红尘乐与快哉空。</p>
+    </div>
+</div>
+

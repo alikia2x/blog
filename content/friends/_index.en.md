@@ -4,7 +4,7 @@ title: "Friends"
 
 ## Let's Connect!
 
-If you wanna connect with me, you can [send an email](mailto:alikia2x@outlook.com), through [X](https://x.com/alikia2x) or in [Fediverse](https://social.a2x.pub/@alikia_en).
+If you wanna connect with me, you leave a comment to this post, [send an email](mailto:alikia2x@outlook.com), through [X](https://x.com/alikia2x) or in [Fediverse](https://social.a2x.pub/@alikia_en).
 
 **info:**
 
@@ -76,7 +76,7 @@ avatar: https://alikia2x.com/img/avatar.png
 </div>
 
 <div class="fr-box">
-    <img class="fr-img" src="/img/candinya.png" alt="糖喵's avatar">
+    <img class="fr-img" src="/img/candinya.png" alt="Candy Nya's avatar">
     <div class="fr">
         <a style="margin-bottom: 0.3rem;" href="https://candinya.com/">Candy Nya</a>
         <p style="margin-bottom: 0.2rem;">Never drown the flame of hope</p>
@@ -160,5 +160,13 @@ avatar: https://alikia2x.com/img/avatar.png
     <div class="fr">
         <a style="margin-bottom: 0.3rem;" href="https://blog.byteloid.one/">Bingxin Home</a>
         <p style="margin-bottom: 0.2rem;">好久不见</p>
+    </div>
+</div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/misscraft.jpg" alt="misscraft's avatar">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://akaluchi.com/">misscraft</a>
+        <p style="margin-bottom: 0.2rem;">狂风拂面衣襟乱，红尘乐与快哉空。</p>
     </div>
 </div>
