@@ -164,9 +164,9 @@ avatar: https://alikia2x.com/img/avatar.png
 </div>
 
 <div class="fr-box">
-    <img class="fr-img" src="/img/misscraft.png" alt="misscraft的头像">
+    <img class="fr-img" src="/img/misscraft.png" alt="路痴的平行世界的头像">
     <div class="fr">
-        <a style="margin-bottom: 0.3rem;" href="https://akaluchi.com/">misscraft</a>
+        <a style="margin-bottom: 0.3rem;" href="https://akaluchi.com/">路痴的平行世界</a>
         <p style="margin-bottom: 0.2rem;">狂风拂面衣襟乱，红尘乐与快哉空。</p>
     </div>
 </div>
