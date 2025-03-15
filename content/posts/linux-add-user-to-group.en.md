@@ -18,7 +18,7 @@ usermod -a -G alikia git
 
 ## Change a User's Primary Group
 
-While a user account can be part of multiple groups, one of the groups is always the "primary group" and the others are "secondary groups". The user's login process and files and folders the user creates will be assigned to the primary group.
+While a user account can be part of multiple groups, one of the groups is always the primary group and the others are supplementary groups. The user's login process and files and folders the user creates will be assigned to the primary group.
 
 For example, set the primary group of user `user1` to `group1` :
 
@@ -26,9 +26,9 @@ For example, set the primary group of user `user1` to `group1` :
 usermod -g group1 user1
 ```
 
-## View the Groups a User Account is Assigned To
+## View the Groups a User is Assigned To
 
-To view the groups the current user account is assigned to, run the `groups` command. You'll see a list of groups.
+To view the groups the current user is assigned to, run the `groups` command. You'll see a list of groups.
 
 Add argument after `groups` to specify which user's group you want to view, eg:
 
