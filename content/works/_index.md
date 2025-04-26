@@ -4,6 +4,15 @@ title: "寒寒的作品"
 
 > 实际上，对于多数项目而言，没有一个既定的终点，因为只要不是被废弃，她们就需要维护、更新。因此我们用「基本完成」来形容。
 
+## 积极开发中
+
+### 中V档案馆 / CVSA
+
+「中 V 档案馆」是一个旨在收录与展示「中文歌声合成作品」及有关信息的网站，旨在成为中文歌声合成的收集站和档案馆。
+
+[网站（开发中）](https://projectcvsa.com/) | [GitHub](https://github.com/alikia2x/cvsa) | [Gitee](https://gitee.com/alikia/cvsa)
+
+
 ## 基本完成～
 
 ### PuffyHub
@@ -22,7 +31,15 @@ title: "寒寒的作品"
 
 [GitHub](https://github.com/alikia2x/videox)
 
-## 开发中
+## 开发暂时停滞
+
+## OpenRewind
+
+[rewind.ai](http://rewind.ai/) 的开源替代品，旨在为多个平台上提供与 Rewind 近乎一致的体验。
+
+它持续记录你的屏幕，供你回放或搜索。
+
+[GitHub](https://github.com/alikia2x/openrewind)
 
 ### SparkHome / 星火主页
 

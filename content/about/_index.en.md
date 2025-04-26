@@ -2,17 +2,13 @@
 title: About Me
 ---
 
-Hi. I'm alikia2x, a student developer focused on applications that we use in our daily lives.
+Hi. I'm alikia2x, a student developer.
 
-I'm learning and evolving every day to make the dream of bringing the best applications to everyone a reality.
+I love coding, anime, game & listening to SVS works.
 
-You can have a look at my work [here](../works/).
+> SVS: Singing Voice Synthesis, eg: VOCALOID.
 
-- ❤️ Love coding.
-
-- ❤️ Love anime.
-
-- ❤️ Love games.
+You can view my work [here](../works/).
 
 ## OpenPGP PUBLIC KEY
 
@@ -40,7 +36,7 @@ btnCopy.addEventListener('click', function() {
   el.select();
   document.execCommand('copy');
   document.body.removeChild(el);
-  btnCopy.innerText='Successfully copied!';
+  btnCopy.innerText='Successfully copied.';
   setTimeout(()=>{
     btnCopy.innerText='Copy';
   }, 1500);

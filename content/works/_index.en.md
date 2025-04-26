@@ -2,6 +2,14 @@
 title: "Works"
 ---
 
+## Avticely Developing
+
+### CVSA (Chinese Vocal Synthesis Archive)
+
+A website to collect and showcase Chinese vocal synthesis works and related information.
+
+[GitHub](https://github.com/alikia2x/cvsa)
+
 ## Basically done
 
 ### PuffyHub
@@ -20,7 +28,15 @@ A minimalist video compression tool on iOS.
 
 [GitHub](https://github.com/alikia2x/videox)
 
-## Under development
+## Development Stalled
+
+### OpenRewind
+An open source alternative to [rewind.ai](http://rewind.ai/), aiming to provide a nearly identical experience on multiple platform
+
+It records your screen for you to replay or search.
+
+[GitHub](https://github.com/alikia2x/openrewind)
+
 
 ### SparkHome
 
