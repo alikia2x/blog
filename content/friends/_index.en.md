@@ -170,3 +170,12 @@ avatar: https://alikia2x.com/img/avatar.png
         <p style="margin-bottom: 0.2rem;">狂风拂面衣襟乱，红尘乐与快哉空。</p>
     </div>
 </div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/joseph.png" alt="Joseph's avatar">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://josephcz.xyz/">Joseph Chris</a>
+        <p style="margin-bottom: 0.2rem;">生如逆旅 · 一苇以航</p>
+    </div>
+</div>
+
