@@ -179,3 +179,10 @@ avatar: https://alikia2x.com/img/avatar.png
     </div>
 </div>
 
+<div class="fr-box">
+    <img class="fr-img" src="/img/luoyu.jpg" alt="洛雨's avatar">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://luotianyi.eu/">洛雨の小站</a>
+        <p style="margin-bottom: 0.2rem;">历史终将证明一切</p>
+    </div>
+</div>
