@@ -4,115 +4,127 @@ date: 2025-07-07 00:02:21
 draft: false
 ---
 
+The Quite OK Image Format (QOI)
+
+Specification Version 1.0 (2022-01-05)
+Source: qoiformat.org – Dominic Szablewski
 
 File Structure
 
 A QOI file consists of:
-
 	•	A 14-byte header
-
-	•	Data chunks
-
+	•	Any number of data “chunks”
 	•	An 8-byte end marker
 
-Header Format
+Header
+
 qoi_header {
-  char magic[4];       // Magic bytes "qoif"
-  uint32_t width;      // Image width in pixels (Big Endian)
-  uint32_t height;     // Image height in pixels (Big Endian)
-  uint8_t channels;    // 3 = RGB, 4 = RGBA
-  uint8_t colorspace;  // 0 = sRGB with linear alpha, 1 = all channels linear
-}
-	•	colorspace and channels are purely informative
+char     magic[4];   // magic bytes “qoif”
+uint32_t width;      // image width in pixels (big-endian)
+uint32_t height;     // image height in pixels (big-endian)
+uint8_t  channels;   // 3 = RGB, 4 = RGBA
+uint8_t  colorspace; // 0 = sRGB with linear alpha, 1 = all channels linear
+};
+	•	Colorspace and channels are informative only, not affecting chunk encoding.
 
-	•	Images are encoded row by row, left to right, top to bottom
+Encoding Overview
 
-	•	Decoder/encoder starts with {r:0, g:0, b:0, a:255} as the previous pixel
+Images are encoded:
+	•	Row by row, left to right, top to bottom.
+	•	Starting with previous pixel value {r:0, g:0, b:0, a:255}.
+	•	Encoding stops when width * height pixels are covered.
 
-Pixel Encoding Methods
+Pixels can be encoded as:
+	•	A run of the previous pixel
+	•	An index into a seen pixels array
+	•	A difference to the previous pixel value
+	•	Full r,g,b or r,g,b,a values
 
-	•	Run of the previous pixel
-
-	•	Index into a color index array
-
-	•	Difference from the previous pixel
-
-	•	Full RGB or RGBA values
+Color channels are un-premultiplied alpha.
 
 Color Index Array
 
-	•	A running array [64] of previously seen pixels
+A running array of 64 previously seen pixel values is maintained, initialized to zero.
+Each pixel is stored at an index computed by:
 
-	•	Index position calculated by:
 index_position = (r * 3 + g * 5 + b * 7 + a * 11) % 64
-Chunk Structure
 
-	•	Each chunk starts with a 2 or 8-bit tag
+If a pixel matches the value at its computed index, QOI_OP_INDEX is written.
 
-	•	All chunks are byte-aligned
+Chunks
 
-	•	8-bit tags take precedence over 2-bit tags
+All chunks:
+	•	Start with a 2- or 8-bit tag, followed by data bits.
+	•	Are byte-aligned.
+	•	Encoded MSB-first.
+
+End Marker
+	•	7 bytes of 0x00 followed by a single 0x01.
 
 Chunk Types
 
-8-bit Tags
+QOI_OP_RGB
 
-	•	QOI_OP_RGB (Tag: b11111110):
+Byte[0]	Byte[1]	Byte[2]	Byte[3]
+11111110	red	green	blue
 
-	◦	8-bit red channel
+	•	Tag: 8-bit 0xFE
+	•	Stores RGB values.
+	•	Alpha remains unchanged.
 
-	◦	8-bit green channel
+QOI_OP_RGBA
 
-	◦	8-bit blue channel
+Byte[0]	Byte[1]	Byte[2]	Byte[3]	Byte[4]
+11111111	red	green	blue	alpha
 
-	◦	Alpha remains unchanged
+	•	Tag: 8-bit 0xFF
+	•	Stores full RGBA values.
 
-	•	QOI_OP_RGBA (Tag: b11111111):
+QOI_OP_INDEX
 
-	◦	8-bit red channel
+Byte[0]
+00xxxxxx
 
-	◦	8-bit green channel
+	•	Tag: 2-bit 00
+	•	6-bit index into the color index array (0..63).
+	•	No two consecutive chunks to the same index (use QOI_OP_RUN instead).
 
-	◦	8-bit blue channel
+QOI_OP_DIFF
 
-	◦	8-bit alpha channel
+Byte[0]
+01rrggbb
 
-2-bit Tags
+	•	Tag: 2-bit 01
+	•	2-bit diffs for r, g, b channels (-2..1).
+	•	Stored as unsigned integers with bias +2:
+	•	e.g. -2 stored as 0b00, +1 stored as 0b11.
+	•	Uses wraparound for underflow/overflow.
+	•	Alpha remains unchanged.
 
-	•	QOI_OP_INDEX (Tag: b00):
+QOI_OP_LUMA
 
-	◦	6-bit index into color array (0-63)
+Byte[0]	Byte[1]
+10gggggg	rrrrbbbb
 
-	◦	No consecutive identical indices allowed
+	•	Tag: 2-bit 10
+	•	Green channel difference: 6 bits (-32..31, bias +32)
+	•	Red and blue diffs are relative to green difference:
+dr_dg = (cur.r - prev.r) - (cur.g - prev.g)
+db_dg = (cur.b - prev.b) - (cur.g - prev.g)
+	•	dr_dg and db_dg: 4 bits each (-8..7, bias +8).
+	•	Wraparound is used.
+	•	Alpha remains unchanged.
 
-	•	QOI_OP_DIFF (Tag: b01):
+QOI_OP_RUN
 
-	◦	2-bit red difference (-2 to 1)
+Byte[0]
+11xxxxxx
 
-	◦	2-bit green difference (-2 to 1)
+	•	Tag: 2-bit 11
+	•	6-bit run-length for repeating previous pixel (1..62, bias -1).
+	•	Values 63 and 64 are illegal (reserved for QOI_OP_RGB/RGBA).
 
-	◦	2-bit blue difference (-2 to 1)
+Notes
+	•	8-bit tags take precedence over 2-bit tags.
+	•	Decoder must check for 8-bit tags first.
 
-	◦	Values stored with bias of 2
-
-	•	QOI_OP_LUMA (Tag: b10):
-
-	◦	6-bit green difference (-32 to 31)
-
-	◦	4-bit red difference minus green difference (-8 to 7)
-
-	◦	4-bit blue difference minus green difference (-8 to 7)
-
-	◦	Green bias: 32, red/blue bias: 8
-
-	•	QOI_OP_RUN (Tag: b11):
-
-	◦	6-bit run-length (1-62)
-
-	◦	Run-length stored with bias of -1
-
-	◦	63 and 64 are invalid
-
-End Marker
-
-	•	7 x 00 bytes followed by 0x01 byte
