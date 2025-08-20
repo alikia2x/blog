@@ -187,3 +187,12 @@ avatar: https://alikia2x.com/img/avatar.png
         <p style="margin-bottom: 0.2rem;">历史终将证明一切</p>
     </div>
 </div>
+
+<div class="fr-box">
+    <img class="fr-img" src="/img/yido.png" alt="yido的头像">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://blog.jamyido.cn/">yido酱の小窝</a>
+        <p style="margin-bottom: 0.2rem;">技术小白，调教菜菜</p>
+    </div>
+</div>
+
