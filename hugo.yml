@@ -1,6 +1,7 @@
 baseURL: 'https://blog.alikia2x.com/'
 title: 寒寒的博客
-paginate: 10
+pagination:
+    pagerSize: 10
 languageCode: zh
 defaultContentLanguage: zh
 hasCJKLanguage: true
@@ -235,7 +236,6 @@ menu:
             name: 搜索
             url: /search/
             weight: 80
-pygmentsUseClasses: true
 markup:
     highlight:
         noClasses: false
