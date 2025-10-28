@@ -2,6 +2,7 @@
 title: QOI file format spec
 date: 2025-07-07 00:02:21
 draft: false
+summary: The spec of the QOI image format.
 ---
 
 ```
