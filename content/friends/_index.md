@@ -196,3 +196,12 @@ avatar: https://alikia2x.com/img/avatar.png
     </div>
 </div>
 
+
+<div class="fr-box">
+    <img class="fr-img" src="https://tuan-zi.cn/avatar.jpg" alt="豆沙团子的头像">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://tuan-zi.cn/">豆沙团子</a>
+        <p style="margin-bottom: 0.2rem;">爱天依，爱画画，爱前端～</p>
+    </div>
+</div>
+
