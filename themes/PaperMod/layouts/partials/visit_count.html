@@ -2,7 +2,7 @@
 <script>
     let path="{{ path.Clean .Page.RelPermalink }}";
     path = encodeURIComponent("hugo-blog:" + path);
-    var endpoint = 'https://count.a2x.pub/record/@' + path;
+    var endpoint = 'https://count.a2x.im/record/@' + path;
 
     var xhrPV = new XMLHttpRequest();
     xhrPV.open('GET', endpoint, true);
