@@ -1,8 +1,7 @@
-{{- if ( hugo.IsProduction ) }}
+
 <script>
     let path="{{ path.Clean .Page.RelPermalink }}";
-    path = encodeURIComponent("hugo-blog:" + path);
-    var endpoint = 'https://count.a2x.im/record/@' + path;
+    var endpoint = 'https://count.a2x.im/count' + path;
 
     var xhrPV = new XMLHttpRequest();
     xhrPV.open('GET', endpoint, true);
@@ -30,7 +29,7 @@
     };
     xhrPV.send();
 </script>
-{{- end }}
+
 
 
 {{- if (.Param "ShowVisit") -}}
