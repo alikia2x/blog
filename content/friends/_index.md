@@ -4,7 +4,7 @@ title: "朋友们"
 
 ## 和寒寒交朋友
 
-欢迎来和寒寒交朋友(≧∇≦) 互加友链可以直接在本页面下方留言，给寒寒[发邮件](mailto:contact@alikia2x.com)或者给我在[Fediverse](https://social.a2x.pub/@alikia)上私信～
+欢迎来和寒寒交朋友(≧∇≦) 互加友链可以直接在本页面下方留言，给寒寒[发邮件](mailto:contact@alikia2x.com)或者给我在[Fediverse](https://myce.li/@alikia)上私信～
 
 **信息:**
 

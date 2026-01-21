@@ -4,7 +4,7 @@ title: "Friends"
 
 ## Let's Connect!
 
-If you wanna connect with me, you leave a comment to this post, [send an email](mailto:alikia2x@outlook.com), through [X](https://x.com/alikia2x) or in [Fediverse](https://social.a2x.pub/@alikia_en).
+If you wanna connect with me, you leave a comment to this post, [send an email](mailto:alikia2x@outlook.com), through [X](https://x.com/alikia2x) or in [Fediverse](https://myce.li/@alikia_en).
 
 **info:**
 

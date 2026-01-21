@@ -161,7 +161,7 @@ params:
     socialIcons:
         -
             name: misskey
-            url: 'https://social.a2x.pub/@alikia'
+            url: 'https://myce.li/@alikia'
         -
             name: github
             url: 'https://github.com/alikia2x'
@@ -170,10 +170,7 @@ params:
             url: 'mailto:contact@alikia2x.com'
         -
             name: bilibili
-            url: 'https://space.bilibili.com/335075170'
-        -
-            name: youtube
-            url: 'https://youtube.com/@alikia2x'
+            url: 'https://space.bilibili.com/600004959'
         -
             name: link
             url: 'https://alikia2x.com'

@@ -406,3 +406,7 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+.post-content code {
+    font-family: "Geist Mono", monospace;
+}

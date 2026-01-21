@@ -178,7 +178,7 @@ iOS 平台小游戏“按！”的 Web 复刻。
 
 ## A2X
 
-Quixio 的改进。使用 Python 重构，并使用 SQLite 作为数据库，目前其正运行在 [a2x.pub](https://a2x.pub) 端点。
+Quixio 的改进。使用 Python 重构，并使用 SQLite 作为数据库。
 
 **状态**：归档
 
