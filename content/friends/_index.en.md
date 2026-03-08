@@ -180,6 +180,14 @@ avatar: https://alikia2x.com/img/avatar.png
 </div>
 
 <div class="fr-box">
+    <img class="fr-img" src="/img/Chlorine.webp" alt="Chlorine's avatar'">
+    <div class="fr">
+        <a style="margin-bottom: 0.3rem;" href="https://chlo.is/">Chlorine</a>
+        <p style="margin-bottom: 0.2rem;">An Element-chan who writes.</p>
+    </div>
+</div>
+
+<div class="fr-box">
     <img class="fr-img" src="/img/luoyu.jpg" alt="洛雨's avatar">
     <div class="fr">
         <a style="margin-bottom: 0.3rem;" href="https://luotianyi.eu/">洛雨の小站</a>
